@@ -6,7 +6,7 @@ Xcode included support of a lot of Apple 'Kits', like UIKit, MLKit, SpriteKit, S
 
 But, last few years I start to think about migration from great IDE's to something simple and lightweight. There are some of my points, why I regularly think about it:
 
-    - IDE's are too heavy. It doesn't matter which modern IDE you use. All of them use a lot of CPU resources and gigabytes of RAM and consume a lot of energy. As a result, the CPU starts throttle, your laptop is loose mobility, because you always need to be near the power source air start heats, coolers start to generate a lot of loud. 
+    - IDE's are too heavy. It doesn't matter which modern IDE you use. All of them use a lot of CPU resources and gigabytes of RAM and consume a lot of energy. As a result, the CPU starts throttle, your laptop is loose mobility, because you always need to be near the power source air start heats, coolers start to generate a lot of loud.
 
     - A huge part of my work is coding, and mostly I need only a good text editor, terminal, debugger, and maybe a preview of the screen which I working on. But IDE's contains a lot of features. And a lot of these features are unused for me most of the time.
 
@@ -31,12 +31,12 @@ Next text editors, I see as alternatives to IDE's:
 But out of the box, Sublime Text is just a text editor, so for transforming it into a useful tool I need to do some things:
 
 Fundamentals:
-1) Configure plugin management. It's simple. There are a lot of information about Package control on the internet. Let's not dwell on it.
+1) [Package control](https://packagecontrol.io/).
 2) Configure languages support. I planned to use a few programming languages for work, so I need syntax highlights, autocomplete, goto definition, etc. (Here will be placed a link to my notes about it. But now it's just a list.)
-    - java auto imports
-    - javatar (need to think about benefits and extending of this plugin)
-    - java LSP and java syntax highlight
-    - kotlin lsp and kotlin syntax highlight
+    - [Java imports](https://packagecontrol.io/packages/JavaImports)
+    - [Javatar](https://packagecontrol.io/packages/Javatar) (need to think about benefits and extending of this plugin)
+    - Java LSP and java syntax highlight
+    - Kotlin LSP and kotlin syntax highlight
 3) Existed plugins and tools. List here will be grown. 
     - HotKeys.
         - Duplicating line.
