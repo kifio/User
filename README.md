@@ -34,16 +34,16 @@ Fundamentals:
 1) [Package control](https://packagecontrol.io/).
 2) Configure languages support. I planned to use a few programming languages for work, so I need syntax highlights, autocomplete, goto definition, etc. (Here will be placed a link to my notes about it. But now it's just a list.)
     - [Java imports](https://packagecontrol.io/packages/JavaImports)
-    - [Javatar](https://packagecontrol.io/packages/Javatar) (need to think about benefits and extending of this plugin)
     - Java LSP and java syntax highlight
     - Kotlin LSP and kotlin syntax highlight
-3) Existed plugins and tools. List here will be grown. 
+3) Existed plugins and tools. List here will be grown.
+    - [Javatar](https://packagecontrol.io/packages/Javatar) (need to think about benefits and extending of this plugin)
     - HotKeys.
         - Duplicating line.
         - Multiple cursors.
         - GoTo file in the project tree. 
-    - Terminal. Terminus (need link).
-    - Indents. 
+    - [Terminus](https://packagecontrol.io/packages/Terminus)
+    - Indents
         - Code indents.
         - non-code indents I already forked the JSON indents plugin (need link) for extending it.
 4) Android support. This is a huge and still not investigated topic for me. 
