@@ -2,7 +2,7 @@ my SublimeText configuration for using it instead of IDE.
 
 Must have:
 1) [Package control](https://packagecontrol.io/)
-2) [Language servers & Syntax highlighting](https://github.com/kifio/code-editors-notes/blob/branch/LSP.md)
+2) [Language servers & Syntax highlighting](https://github.com/kifio/code-editors-notes/blob/master/LSP.md)
 3) Indentation
 4) Existed plugins and tools.
     - [Terminus](https://packagecontrol.io/packages/Terminus)
