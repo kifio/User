@@ -1,3 +1,6 @@
+Kotlin and Java LSP consume to much RAM. It's easier to use IDE. Yeah, I would spent more RAM, but I would have much more features.</br>  
+Here is configs for Java, Kotlin LSP and syntax highlight, but I decide to try something else.
+
 [Language Server Protcol](https://microsoft.github.io/language-server-protocol/)
 [LSP repo](https://github.com/sublimelsp/LSP)
 
@@ -46,54 +49,12 @@
 "kotlinls": {
       "enabled": true,
       "languageId": "kotlin",
-      "command": ["/opt/kotlin-language-server/server/build/install/server/bin/kotlin-language-server"], // Update the PATH
+      "command": ["/opt/kotlin-language-server/server/build/install/server/bin/kotlin-language-server"],
       "scopes": [
         "source.Kotlin"
       ],
       "syntaxes": [
         "Packages/User/Kotlin/Kotlin.tmLanguage"
       ],
-    }
-```
-
-**C/Objective-C/C++/Swift**
-[Sourcse-Kit](https://github.com/apple/sourcekit-lsp)
-```
-"SourceKit-LSP": {
-      "command": [
-        "xcrun",
-        "sourcekit-lsp"
-      ],
-      "enabled": true,
-      "languages": [
-        {
-          "scopes": ["source.swift"],
-          "syntaxes": [
-            "Packages/Swift/Syntaxes/Swift.tmLanguage",
-            "Packages/Decent Swift Syntax/Swift.sublime-syntax",
-          ],
-          "languageId": "swift"
-        },
-        {
-          "scopes": ["source.c"],
-          "syntaxes": ["Packages/C++/C.sublime-syntax"],
-          "languageId": "c"
-        },
-        {
-          "scopes": ["source.c++"],
-          "syntaxes": ["Packages/C++/C++.sublime-syntax"],
-          "languageId": "cpp"
-        },
-        {
-          "scopes": ["source.objc"],
-          "syntaxes": ["Packages/Objective-C/Objective-C.sublime-syntax"],
-          "languageId": "objective-c"
-        },
-        {
-          "scopes": ["source.objc++"],
-          "syntaxes": ["Packages/Objective-C/Objective-C++.sublime-syntax"],
-          "languageId": "objective-cpp"
-        },
-      ]
     }
 ```
