@@ -1,5 +1,5 @@
 Kotlin and Java LSP consume to much RAM. It's easier to use IDE. Yeah, I would spent more RAM, but I would have much more features.</br>  
-Here is configs for Java, Kotlin LSP and syntax highlight, but I decide to try something else.
+Here is configs for Java, Kotlin LSP and syntax highlight, but I decide to try [something else](https://github.com/kifio/code-editors-notes/blob/master/Code_Actions.md).
 
 [Language Server Protcol](https://microsoft.github.io/language-server-protocol/)
 [LSP repo](https://github.com/sublimelsp/LSP)
