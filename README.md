@@ -4,11 +4,12 @@ Must have:
 1) [Package control](https://packagecontrol.io/)
 2) [Language servers & Syntax highlighting](https://github.com/kifio/code-editors-notes/blob/master/LSP.md)
 3) Indentation
-4) Existed plugins and tools.
+    - [XML/JSON](https://github.com/kifio/sublimetext_indentxml)
+5) Existed plugins and tools.
     - [Terminus](https://packagecontrol.io/packages/Terminus)
     - [GitGutter](https://github.com/jisaacks/GitGutter)
     - [Java Imports](https://github.com/MDeiml/SublimeJavaImports)
-5) Key bindings:
+6) Key bindings:
     ```{ "keys": ["super+d"], "command": "duplicate_line" },```
     ```{ "keys": ["super+shift+up"], "command": "swap_line_up" },```
     ```{ "keys": ["super+shift+down"], "command": "swap_line_down" },```
