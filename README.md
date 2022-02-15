@@ -8,13 +8,12 @@ Must have:
 5) Existed plugins and tools.
     - [Terminus](https://packagecontrol.io/packages/Terminus)
     - [GitGutter](https://github.com/jisaacks/GitGutter)
-    - [Java Imports](https://github.com/MDeiml/SublimeJavaImports)
 6) Key bindings:
-    ```{ "keys": ["super+d"], "command": "duplicate_line" },```
-    ```{ "keys": ["super+shift+up"], "command": "swap_line_up" },```
-    ```{ "keys": ["super+shift+down"], "command": "swap_line_down" },```
-    ```{ "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },```
-    ```{ "keys": ["super+shift+v"], "command": "toggle_side_bar" },```
+    - ```{ "keys": ["super+d"], "command": "duplicate_line" },```
+    - ```{ "keys": ["super+shift+up"], "command": "swap_line_up" },```
+    - ```{ "keys": ["super+shift+down"], "command": "swap_line_down" },```
+    - ```{ "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },```
+    - ```{ "keys": ["super+shift+v"], "command": "toggle_side_bar" },```
 6) Android support. This is a huge and still not investigated topic for me. 
     - Logcat. It looks simple. Just write Pidcat (need link) output into the terminal.
     - A way to interact with Android SDK like with Java/Kotlin standard libraries. Support for features like Compose is questionable.
