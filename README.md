@@ -20,7 +20,6 @@ Must have:
     - SVG to Vector drawable (hopes it's possible).
 
 Definitely needed later:
-    - Text search like in IDEA.
-    - UI plugin for Android SDK manager.
-    - UI plugin for AVD manager.
-    - Support for iOS SDK.
+- UI plugin for Android SDK manager.
+- UI plugin for AVD manager.
+- Support for Dart, Flutter SourceKit and iOS SDK.
