@@ -8,8 +8,8 @@ Must have:
     - [Terminus](https://packagecontrol.io/packages/Terminus)
     - [GitGutter](https://github.com/jisaacks/GitGutter)
     - TODO: snake-camel cases toggler
-    - Search for classes/files like in IDEA.
-    - Text search like in IDEA.
+    - TODO: Search for classes/files like in IDEA.
+    - TODO: Text search like in IDEA.
 4) Key bindings:
     - TODO: Upload keymaps for osx and other os's.
 5) Android support. This is a huge and still not investigated topic for me. 
