@@ -1,51 +1,27 @@
-**Java & Kotlin Code Actions**
+## Java & Kotlin Code Actions
 
-Mandatory code actions for me:
+### Mandatory code actions for me:
  - Go to definition & Find usages for fields, variables, functios, classes, interfaces, enums.
  - Rename fields, variables, functios, enums, classes (with files in java).
  - AutoComplete for variables types on declaration, variables and classes usages, functions calls.
  - Do not forget to support `static` for Java and `companion` for kotlin.
  - Support for Java, Kolin, JDK, Android SDK.
-</br>
-Next iterations:
- - Hide suggestions for `private` classes, methods, fields.
- - Suggest overriding for abstract methods from parents/interfaces.
+
+### Next steps:
+ - Handle visibiliity scopes `package` and `private` for classes, methods, fields.
+ - Suggest overriding for abstract methods from parents/interfaces. Handle `open` modifier iin Kotlin.
  - Generate equals, hashcode, toString, constructors, getters, setters, data classes, records classes. 
  - Autocomplete for single method classes/interfaces bodies placeholders (like listeners, functional operators).
-</br>
 
-**The algorithm**</br>
-The obvious idea of the algorithm is generating an index for classes/functions/variables definitions and usage.</br>
-For these purposes, I do not need a full set of languages grammars, I just need to implement a definition, declaration, and usage parser.</br>
-When the user opens or edits a file, existed index for this file is removed and rebuilt.</br>
-All comments and strings constants removed with regexes (it's much easier, then do it in runtime)</br>
-Then, the plugin analyzes imports and looks for existing indexes of imported packages.</br>
-Indexes for JDK, SDK, libraries are project agnostic and stored on plugin data level.</br>
-Indexes for the current project should be kept hidden on the project level.</br>
+### The algorithm
+The obvious idea of the algorithm is generating an index for classes/functions/variables definitions and usage. For these purposes, I do not need a full set of languages grammars, I just need to implement a definition, declaration, and usage parser. When the user opens or edits a file, existed index for this file is removed and rebuilt. All comments and strings constants removed with regexes (it's much easier, then do it in runtime). Then, the plugin analyzes imports and looks for existing indexes of imported packages. Indexes for JDK, SDK, libraries are project agnostic and stored on plugin data level. Indexes for the current project should be kept hidden on the project level.
 
-**Grammars**</br>
-Full Kotlin grammar can be found [here](https://kotlinlang.org/docs/reference/grammar.html)</br>
-Not significant parts like visibility modifiers, generic constraints, assigns, etc are ommited.
-Any keyword could be wrapped in \`\` like `\`class\``
-For the start, I need next subset:
+### Grammars
+[Kotlin grammar](https://kotlinlang.org/docs/reference/grammar.html)</br>
+[Java grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)</br>
 
-```
-MEMBER_DEFINITION: (val | var) Name : Type
-CLASS_ARGS_LIST: (MEMBER_DEFINITION)*
-CLASS DEFINITION: (abstract) object | class | interface  name LPAREN(CLASS_ARGS_LIST)RPAREN : (INHERITANCE_LIST) {} 
+Not significant parts like visibility modifiers, generic constraints, assigns, etc should be ommited. Any keyword wrapped in reversed apostrophes like \`class\`
+should be handled as class/func/variable name.
 
-FUNCTION_DEFINITION: fun name LPAREN FUNCTION_ARGS_LIST RPAREN 
-FUNCTION_ARGS_LIST: (Name : Type (= default_value))*
-COMPANION_MEMBERS_DEFINITION: companion object { (MEMBER_DEFINITION | FUNCTION_DEFINITION)* }
-```
-
-Java (grammar)[https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html].</br>
-Java draft:</br>
-```
-CLASS DEFINITION: (class | interface | abstract class) name (extends | implements INHERITANCE_LIST) {} 
-MEMBER_DEFINITION: Type Name
-FUNCTION_DEFINITION: Type name LPAREN FUNCTION_ARGS_LIST RPAREN 
-FUNCTION_ARGS_LIST: (MEMBER_DEFINITION*)
-```
-**Test Data**
+### Test Data
 Can be found in `samples` dir.
