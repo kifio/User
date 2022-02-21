@@ -1,8 +1,9 @@
-Kotlin and Java LSP consume to much RAM. It's easier to use IDE. Yeah, I would spent more RAM, but I would have much more features.</br>  
-Here is configs for Java, Kotlin LSP and syntax highlight, but I decide to try [something else](https://github.com/kifio/code-editors-notes/blob/master/Code_Actions.md).
+Kotlin and Java LSP consume to much RAM. It's easier to use IDE then configure LSP and modify LSP plugins. Yeah, It would take more RAM, but at least all features works in IDE. Instead of LSP I decide to try [something else](https://github.com/kifio/code-editors-notes/blob/master/Code_Actions.md).
 
-[Language Server Protcol](https://microsoft.github.io/language-server-protocol/)
-[LSP repo](https://github.com/sublimelsp/LSP)
+Here is configs for Java and Kotlin. Also link to syntax highlights for Kotlin.
+
+[Language Server Protcol](https://microsoft.github.io/language-server-protocol/)</br>
+[Sublime LSP repository](https://github.com/sublimelsp/LSP)
 
 **JAVA**
 [Java LSP](https://github.com/eclipse/eclipse.jdt.ls)
@@ -44,7 +45,6 @@ Here is configs for Java, Kotlin LSP and syntax highlight, but I decide to try [
 
 **Kotlin**
 [Kotlin LSP](https://github.com/fwcd/kotlin-language-server)
-[Kotlin Syntax Highlights](https://github.com/Kotlin/kotlin-spec)
 ```
 "kotlinls": {
       "enabled": true,
