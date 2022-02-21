@@ -4,6 +4,7 @@ Must have:
 1) [Package control](https://packagecontrol.io/)
 2) [Language servers & Syntax highlighting](https://github.com/kifio/code-editors-notes/blob/master/LSP.md)
 3) Plugins and tools:
+    - [Kotlin Syntax Highlights](https://github.com/Kotlin/kotlin-spec)
     - [XML/JSON](https://github.com/kifio/sublimetext_indentxml)
     - [Terminus](https://packagecontrol.io/packages/Terminus)
     - [GitGutter](https://github.com/jisaacks/GitGutter)
