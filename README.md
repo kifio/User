@@ -4,12 +4,13 @@ Must have:
 1) [Package control](https://packagecontrol.io/)
 2) [Language servers & Syntax highlighting](https://github.com/kifio/code-editors-notes/blob/master/LSP.md)
 3) Plugins and tools:
+    - [Kotlin Syntax Highlights](https://github.com/Kotlin/kotlin-spec)
     - [XML/JSON](https://github.com/kifio/sublimetext_indentxml)
     - [Terminus](https://packagecontrol.io/packages/Terminus)
     - [GitGutter](https://github.com/jisaacks/GitGutter)
     - TODO: snake-camel cases toggler
-    - Search for classes/files like in IDEA.
-    - Text search like in IDEA.
+    - TODO: Search for classes/files like in IDEA.
+    - TODO: Text search like in IDEA.
 4) Key bindings:
     - TODO: Upload keymaps for osx and other os's.
 5) Android support. This is a huge and still not investigated topic for me. 
@@ -19,7 +20,6 @@ Must have:
     - SVG to Vector drawable (hopes it's possible).
 
 Definitely needed later:
-    - Text search like in IDEA.
-    - UI plugin for Android SDK manager.
-    - UI plugin for AVD manager.
-    - Support for iOS SDK.
+- UI plugin for Android SDK manager.
+- UI plugin for AVD manager.
+- Support for Dart, Flutter SourceKit and iOS SDK.
