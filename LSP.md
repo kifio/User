@@ -1,8 +1,6 @@
-Kotlin and Java LSP consume to much RAM. It's easier to use IDE then configure LSP and modify LSP plugins. Yeah, It would take more RAM, but at least all features works in IDE. Instead of LSP I decide to try [something else](https://github.com/kifio/code-editors-notes/blob/master/Code_Actions.md).
-
 Here is configs for Java and Kotlin. Also link to syntax highlights for Kotlin.
 
-[Language Server Protcol](https://microsoft.github.io/language-server-protocol/)</br>
+[Language Server Protocol](https://microsoft.github.io/language-server-protocol/)</br>
 [Sublime LSP repository](https://github.com/sublimelsp/LSP)
 
 **JAVA**
