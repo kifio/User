@@ -24,11 +24,11 @@ Here is configs for Java and Kotlin. Also link to syntax highlights for Kotlin.
         "-XX:+UseG1GC",
         "-XX:+UseStringDeduplication",
         "-jar",
-        "/opt/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_1.5.200.v20180922-1751.jar",
+        "path_to/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_1.5.200.v20180922-1751.jar",
         "-configuration",
         "/opt/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/config_mac",
         "-data",
-        "/opt/eclipse.jdt.ls/data"
+        "path_to/eclipse.jdt.ls/data"
       ],
       "enabled": true,
       "languageId": "java",
@@ -47,7 +47,7 @@ Here is configs for Java and Kotlin. Also link to syntax highlights for Kotlin.
 "kotlinls": {
       "enabled": true,
       "languageId": "kotlin",
-      "command": ["/opt/kotlin-language-server/server/build/install/server/bin/kotlin-language-server"],
+      "command": ["path_to/kotlin-language-server/server/build/install/server/bin/kotlin-language-server"],
       "scopes": [
         "source.Kotlin"
       ],
