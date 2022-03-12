@@ -1,4 +1,4 @@
-my SublimeText configuration for using it instead of IDE.
+Some notes about SublimeText configuration.
 
 Must have:
 1) [Package control](https://packagecontrol.io/)
