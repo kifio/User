@@ -1,4 +1,4 @@
-Some notes about SublimeText configuration.
+My SublimeText configuration.
 
 Must have:
 1) [Package control](https://packagecontrol.io/)
