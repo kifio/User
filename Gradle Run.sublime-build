@@ -1,0 +1,19 @@
+{
+    "target": "terminus_exec",
+    "cancel": "terminus_cancel_build",
+    "working_dir": "${folder}",
+    "windows":
+    {
+        "shell_cmd": "gradlew run",
+    },
+
+    "osx":
+    {
+        "shell_cmd": "./gradlew run",
+    },
+
+    "linux":
+    {
+        "shell_cmd": "./gradlew run",
+    }
+}

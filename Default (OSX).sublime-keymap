@@ -1,0 +1,14 @@
+[
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+	{ "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+	{ "keys": ["super+shift+v"], "command": "toggle_side_bar" },
+	{ "keys": ["super+shift+u"], "command": "upper_case" },
+	{ "keys": ["super+shift+l"], "command": "lower_case" },
+    { "keys": ["super+t"], "command": "toggle_terminus_panel", "args": {
+            "cwd": "${folder}"
+        } 
+    },
+	{ "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+]
